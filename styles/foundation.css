@@ -12,7 +12,6 @@ header {
 header img {
   margin: 0 auto;
   width: 30%;
-  height
 }
 
 nav {
@@ -71,10 +70,6 @@ nav>ul>li>a {
   color: black;
 }
 
-nav>ul>li:hover a {
-  padding: 15px 30px 20px 30px;
-}
-
 nav li {
   list-style-type: none;
 }
@@ -109,71 +104,33 @@ nav li:hover .submenu {
 }
 
 .menu1:hover {
-  border-top: 5px solid #e44d26;
-  background-color: rgba(228, 77, 38, 0.15);
-  transition: ease-in 0.1s;
+  background-color: rgba(241, 211, 79, 0.15);  transition: ease-in 0.1s;
 }
 
 .menu2:hover {
-  border-top: 5px solid #0070bb;
-  background-color: rgba(000, 112, 192, 0.15);
-  transition: ease-in 0.1s;
+  background-color: rgba(241, 211, 79, 0.15);  transition: ease-in 0.1s;
 }
 
 .menu4:hover {
-  border-top: 5px solid #f1dc4f;
-  background-color: rgba(241, 211, 79, 0.15);
-  transition: ease-in 0.1s;
+  background-color: rgba(241, 211, 79, 0.15);  transition: ease-in 0.1s;
 }
 
 .menu5:hover {
-  border-top: 5px solid #BBB;
-  background-color: rgba(220, 220, 220, 0.15);
-  transition: ease-in 0.1s;
+  background-color: rgba(241, 211, 79, 0.15);  transition: ease-in 0.1s;
 }
 
 .menu6:hover {
-  border-top: 5px solid #BBB;
-  background-color: rgba(260, 200, 120, 0.15);
-  transition: ease-in 0.1s;
+  background-color: rgba(241, 211, 79, 0.15);  transition: ease-in 0.1s;
 }
 
 .menu7:hover {
-  border-top: 5px solid #BBB;
-  background-color: rgba(260, 200, 120, 0.15);
-  transition: ease-in 0.1s;
+  background-color: rgba(241, 211, 79, 0.15);  transition: ease-in 0.1s;
 }
 
 .menu8:hover {
-  border-top: 5px solid #BBB;
-  background-color: rgba(260, 200, 120, 0.15);
-  transition: ease-in 0.1s;
+  background-color: rgba(241, 211, 79, 0.15);  transition: ease-in 0.1s;
 }
 
-.menu1 .submenu li {
-  background-color: #f6e3bd;
-  background-color: rgba(230, 100, 40)
-}
-
-.menu2 .submenu li {
-  background-color: #bdeff6;
-  background-color: rgba(000, 160, 240)
-}
-
-.menu4 .submenu li {
-  background-color: #f6f4bd;
-  background-color: rgba(250, 215, 100)
-}
-
-.menu5 .submenu li {
-  background-color: #d4d4d4;
-  background-color: rgba(230, 100, 40)
-}
-
-.menu6 .submenu li {
-  background-color: #e7a3ea;
-  background-color: rgba(130, 90, 20)
-}
 
 .submenu li:hover a {
   color: #EEE;
