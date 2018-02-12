@@ -1,4 +1,5 @@
 body{
+  margin:  0px;
   font-family: 'Della Respira','Quicksand', sans-serif;
 }
 header{
@@ -13,11 +14,6 @@ height
 nav {
   width: 100%;
   background-color: pink;
--webkit-margin-before: 0px !important;
--webkit-margin-after: 0px !important;
--webkit-margin-start: 0px !important;
--webkit-margin-end: 0px !important;
--webkit-padding-start: 0px !important;
 }
 
 nav>ul {
