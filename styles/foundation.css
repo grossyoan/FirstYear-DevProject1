@@ -35,3 +35,98 @@ nav>ul>li:hover a {
 nav li {
   list-style-type: none;
 }
+
+.submenu {
+  display: none;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav li:hover .submenu {
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  padding: 0px;
+  z-index: 1000;
+}
+
+.submenu li {
+  border-bottom: 1px solid #BBB;
+  width: 10px;
+}
+
+.submenu li a {
+  padding: 15px 30px;
+  font-size: 13px;
+  color: white;
+  width: 270px;
+}
+
+.menu1:hover {
+  border-top: 5px solid #e44d26;
+  background-color: rgba(228, 77, 38, 0.15);
+  transition: ease-in 0.1s;
+}
+
+.menu2:hover {
+  border-top: 5px solid #0070bb;
+  background-color: rgba(000, 112, 192, 0.15);
+  transition: ease-in 0.1s;
+}
+
+.menu4:hover {
+  border-top: 5px solid #f1dc4f;
+  background-color: rgba(241, 211, 79, 0.15);
+  transition: ease-in 0.1s;
+}
+
+.menu5:hover {
+  border-top: 5px solid #BBB;
+  background-color: rgba(220, 220, 220, 0.15);
+  transition: ease-in 0.1s;
+}
+
+.menu1 .submenu li {
+  background-color: #f6e3bd;
+  background-color: rgba(230, 100, 40)
+}
+
+.menu2 .submenu li {
+  background-color: #bdeff6;
+  background-color: rgba(000, 160, 240)
+}
+
+.menu4 .submenu li {
+  background-color: #f6f4bd;
+  background-color: rgba(250, 215, 100)
+}
+
+.menu5 .submenu li {
+  background-color: #d4d4d4;
+  background-color: rgba(230, 100, 40)
+}
+
+.submenu li:hover a {
+  color: #EEE;
+  font-weight: bold;
+}
+
+.menu1 .submenu li:hover {
+  background-color: rgba(210, 77, 50)
+}
+
+.menu2 .submenu li:hover {
+  background-color: rgba(210, 77, 60)
+}
+
+.menu4 .submenu li:hover {
+  background-color: rgba(000, 115, 200)
+}
+
+.menu5 .submenu li:hover {
+  background-color: rgba(200, 165, 75)
+}
