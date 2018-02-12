@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   background-color: #fcf9ef;
-  font-family: 'Della Respira', 'Quicksand', sans-serif;
+      font-family: 'Della Respira', serif;
 }
 
 header {
@@ -165,10 +165,19 @@ nav li:hover .submenu {
   background-color: rgba(210, 77, 50)
 }
 
+.aboutUs{
+
+}
+
+
 /*footer
 
 si vous trouvez pourquoi c'est caput dite le moi
 */
+.clearBoth{
+  clear: both;
+}
+
 footer{
   width: 960px;
   display: column;
