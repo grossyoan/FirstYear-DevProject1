@@ -15,9 +15,9 @@ header img {
 }
 
 nav {
+  width: 960px;
   margin: 0 auto;
   font-size: 0.83em;
-  width: 960px;
 }
 
 nav>ul {
@@ -36,7 +36,6 @@ nav>ul>li::after {
   height: 100%;
   top: 0;
   width: 2px;
-  float: right;
   display: block;
 }
 nav>ul>li:first-child::after {
@@ -82,7 +81,6 @@ nav a {
   display: inline-block;
   text-decoration: none;
 }
-
 nav li:hover .submenu {
   display: inline-block;
   position: absolute;
@@ -92,42 +90,25 @@ nav li:hover .submenu {
   z-index: 1000;
 }
 
+nav>ul>li:nth-last-child(-n+2)::after {
+  content: "";
+  width: 0 !important;
+  background-color: white !important;
+}
+
 .submenu li {
   border-bottom: 1px solid #BBB;
 }
 
 .submenu li a {
+  background-color :#FCF9EF;
   padding: 15px 15px;
   font-size: 13px;
   color: black;
   width: 150px;
 }
 
-.menu1:hover {
-  background-color: rgba(241, 211, 79, 0.15);  transition: ease-in 0.1s;
-}
-
-.menu2:hover {
-  background-color: rgba(241, 211, 79, 0.15);  transition: ease-in 0.1s;
-}
-
-.menu4:hover {
-  background-color: rgba(241, 211, 79, 0.15);  transition: ease-in 0.1s;
-}
-
-.menu5:hover {
-  background-color: rgba(241, 211, 79, 0.15);  transition: ease-in 0.1s;
-}
-
-.menu6:hover {
-  background-color: rgba(241, 211, 79, 0.15);  transition: ease-in 0.1s;
-}
-
-.menu7:hover {
-  background-color: rgba(241, 211, 79, 0.15);  transition: ease-in 0.1s;
-}
-
-.menu8:hover {
+.menu:hover {
   background-color: rgba(241, 211, 79, 0.15);  transition: ease-in 0.1s;
 }
 
@@ -137,38 +118,68 @@ nav li:hover .submenu {
   font-weight: bold;
 }
 
-.menu1 .submenu li:hover {
+.menu .submenu li:hover {
   background-color: rgba(210, 77, 50)
 }
 
-.menu2 .submenu li:hover {
-  background-color: rgba(210, 77, 60)
+.accountBag{
+  float:right;
 }
 
-.menu3 .submenu li {
-  background-color: rgba(130, 110, 40)
-}
 
-.menu4 .submenu li:hover {
-  background-color: rgba(000, 115, 200)
-}
 
-.menu5 .submenu li:hover {
-  background-color: rgba(200, 165, 75)
-}
-
-.menu7 .submenu li:hover {
-  background-color: rgba(210, 77, 50)
-}
-
-.menu8 .submenu li:hover {
-  background-color: rgba(210, 77, 50)
+main{
+  margin:50px auto 0px auto;
+  width: 100%;
+  height:1000px;
 }
 
 .aboutUs{
-
+  position: relative;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 12px 18px rgba(247,239,212,1);
+  -moz-box-shadow: 1px 1px 12px 18px rgba(247,239,212,1);
+  box-shadow: 1px 1px 12px 18px rgba(247,239,212,1);
+  float: right;
+  width: 85%;
+  height: 300px;
+  background-color:#faf8ef;
 }
 
+.aboutUs h1{
+  float: left;
+}
+.aboutUs div{
+  width:500px;
+  float: left;
+}
+.aboutUs img{
+  position:absolute;
+  right: 50px;
+  top: 40px;
+  width: 15%;
+}
+
+.mainProducts{
+  border-radius: 5px;
+  margin-top: 50px;
+  -webkit-box-shadow: 1px 1px 12px 18px rgba(247,239,212,1);
+  -moz-box-shadow: 1px 1px 12px 18px rgba(247,239,212,1);
+  box-shadow: 1px 1px 12px 18px rgba(247,239,212,1);
+  float: left;
+  width: 85%;
+  height: 300px;
+  background-color:#faf8ef;
+}
+
+
+.newsletter{
+  background-color:#faf8ef;
+  width:100%;
+  margin: 100px auto 0px auto;
+  padding: 50px 0px;
+  text-align: center;
+}
 
 /*footer
 
@@ -178,30 +189,44 @@ si vous trouvez pourquoi c'est caput dite le moi
   clear: both;
 }
 
+
+
+
 footer{
   width: 960px;
-  display: column;
-}
-footer img{
-  width: 64px;
-  margin: 10px;
-}
-
-.social_link li{
-  list-style-type: none;
-  float: right;
+  margin: 0 auto;
   text-align: center;
 }
 
-.inner_link a{
+
+footer img{
+  width: 64px;
+  margin: 10px 10px 0px 10px;
+}
+.social_link ul{
+  padding-left: 0px;
+}
+
+.social_link li{
+  display: inline-block;
+  list-style-type: none;
+}
+.inner_link ul{
+  padding:0px;
+}
+.inner_link ul li a{
+  padding: 0px;
   text-decoration: none;
   color: black;
 
 }
+.inner_link ul li:first-child{
+  padding: 0px 0px 0px 10px;
+}
 .inner_link li{
-  margin: 25px;
+  display:inline-block;
+  margin: 0px 15px;
   list-style-type: none;
-  float: right;
 }
 .inner_link{
   text-align: center;
