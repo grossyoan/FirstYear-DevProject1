@@ -1,22 +1,24 @@
-body{
-  margin:  0px;
+body {
+  margin: 0px;
   background-color: #fcf9ef;
-  font-family: 'Della Respira','Quicksand', sans-serif;
+  font-family: 'Della Respira', 'Quicksand', sans-serif;
 }
-header{
-  width:100%;
+
+header {
+  width: 100%;
   text-align: center;
 }
-header img{
-margin: 0 auto;
-width: 30%;
-height
+
+header img {
+  margin: 0 auto;
+  width: 30%;
+  height
 }
+
 nav {
   margin: 0 auto;
   font-size: 0.83em;
   width: 960px;
-  background-color: #ffccfa;
 }
 
 nav>ul {
@@ -34,7 +36,8 @@ nav li {
   list-style-type: none;
 }
 
-nav ul li a{
+nav ul li a {
+  border-right: 1px solid black;
   text-decoration: none;
   color: black;
 }
