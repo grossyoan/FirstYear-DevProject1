@@ -1,6 +1,5 @@
 body{
-  font-family: 'Quicksand', sans-serif;
-  font-family: 'Della Respira', serif;
+  font-family: 'Della Respira','Quicksand', sans-serif;
 }
 header{
   width:100%;
