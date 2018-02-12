@@ -1,3 +1,10 @@
+header{
+  width:100%;
+  text-align: center;
+}
+header img{
+margin: 0 auto;
+}
 nav {
   width: 100%;
   background-color: black;
