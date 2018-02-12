@@ -141,23 +141,25 @@ main{
   -moz-box-shadow: 4px 4px 23px -2px rgba(255,250,234,1);
   box-shadow: 4px 4px 23px -2px rgba(255,250,234,1);
   float: right;
-  width: 85%;
+  width: 50%;
   height: 200px;
   background-color:#fcfcfc;
 }
 
 .aboutUs h1{
+  margin-left: 50px;
   float: left;
 }
 .aboutUs div{
+  margin-left: 50px;
   width:500px;
   float: left;
 }
 .aboutUs img{
   position:absolute;
-  right: 50px;
-  top: 0px;
-  width: 13.25%;
+  right: 15%;
+  top: 7%;
+  width: 15%;
 }
 
 .mainProducts{
@@ -166,10 +168,14 @@ main{
   -webkit-box-shadow: 4px 4px 23px -2px rgba(255,250,234,1);
   -moz-box-shadow: 4px 4px 23px -2px rgba(255,250,234,1);
   box-shadow: 4px 4px 23px -2px rgba(255,250,234,1);
-  float: left;
-  width: 85%;
+  width: 80%;
   height: auto;
   background-color:#fcfcfc;
+}
+
+.mainProducts h1{
+  margin-left: 20px;
+  margin-top: 10px;
 }
 #e587e5
 /*#e587e5 pour les test ne pas utilisé  */
@@ -181,28 +187,40 @@ main{
   text-align: center;
 }
 /* product css*/
-.mainProducts{
-  float: left;
-  display-block: column;
-}
-.product_2{
-  float: right !important;
-}
-.product_2 img{
-  float: left !important;
-}
-.product p{
-  width:500px;
-  float: left;
-}
-.product img{
-  position:absolute;
-  right: 50px;
-  top: 0px;
-  width: 13.25%;
-}
+
+.productPanel{
+  display:flex;
 
 
+}
+
+.newsletter{
+  width: 600px;
+  height:200px;
+  border-radius: 5px;
+  background-color:#FCFCFC;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+input[type=text]{
+  margin: 5px 0px;
+  padding:3px;
+  border:1px solid #F5C5C5;
+  border-radius:5px;
+  width:200px;
+  box-shadow:1px 1px 2px #C0C0C0 inset;
+}
+
+button{
+margin-top: 20px;
+padding:3px;
+border:1px solid #F5C5C5;
+border-radius:5px;
+width:200px;
+box-shadow:1px 1px 2px #C0C0C0 inset;
+}
 /*footer
 
 si vous trouvez pourquoi c'est caput dite le moi
