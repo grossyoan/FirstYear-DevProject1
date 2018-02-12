@@ -36,8 +36,16 @@ nav li {
   list-style-type: none;
 }
 
-nav ul li a {
+nav ul li{
+  position: relative;
+}
+
+nav ul li::after{
   border-right: 1px solid black;
+  border-height: 5px;
+}
+
+nav ul li a {
   text-decoration: none;
   color: black;
 }
@@ -86,7 +94,7 @@ nav li:hover .submenu {
   padding: 15px 30px;
   font-size: 13px;
   color: black;
-  width: 270px;
+  width: 150px;
 }
 
 .menu1:hover {
@@ -170,7 +178,6 @@ nav li:hover .submenu {
 }
 
 .menu3 .submenu li {
-  background-color: #d2f6ac;
   background-color: rgba(130, 110, 40)
 }
 
