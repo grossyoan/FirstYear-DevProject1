@@ -23,13 +23,27 @@ nav {
 
 nav>ul {
   margin: 0px;
+  position: relative;
   padding: 0px;
 }
 
-nav>ul::after {
+
+
+nav>ul>li::after {
   content: "";
   clear: both;
+  position: absolute;
+  background-color: black;
+  height: 100%;
+  top: 0;
+  width: 2px;
+  float: right;
   display: block;
+}
+nav>ul>li:first-child::after {
+  content: "";
+  width: 0 !important;
+  background-color: white !important;
 }
 
 nav li {
@@ -40,10 +54,7 @@ nav ul li{
   position: relative;
 }
 
-nav ul li::after{
-  border-right: 1px solid black;
-  border-height: 5px;
-}
+
 
 nav ul li a {
   text-decoration: none;
