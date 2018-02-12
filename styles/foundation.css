@@ -99,6 +99,12 @@ nav li:hover .submenu {
   transition: ease-in 0.1s;
 }
 
+.menu6:hover {
+  border-top: 5px solid #BBB;
+  background-color: rgba(260, 200, 120, 0.15);
+  transition: ease-in 0.1s;
+}
+
 .menu1 .submenu li {
   background-color: #f6e3bd;
   background-color: rgba(230, 100, 40)
@@ -117,6 +123,11 @@ nav li:hover .submenu {
 .menu5 .submenu li {
   background-color: #d4d4d4;
   background-color: rgba(230, 100, 40)
+}
+
+.menu6 .submenu li {
+  background-color: #e7a3ea;
+  background-color: rgba(130, 90, 20)
 }
 
 .submenu li:hover a {
