@@ -7,7 +7,7 @@ margin: 0 auto;
 }
 nav {
   width: 100%;
-  background-color: black;
+  background-color: pink;
 }
 
 nav>ul {
@@ -69,7 +69,7 @@ nav li:hover .submenu {
 .submenu li a {
   padding: 15px 30px;
   font-size: 13px;
-  color: white;
+  color: black;
   width: 270px;
 }
 
