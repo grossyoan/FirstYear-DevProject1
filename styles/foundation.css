@@ -97,7 +97,7 @@ nav li:hover .submenu {
 }
 
 .submenu li a {
-  padding: 15px 30px;
+  padding: 15px 15px;
   font-size: 13px;
   color: black;
   width: 150px;
@@ -155,4 +155,12 @@ nav li:hover .submenu {
 
 .menu5 .submenu li:hover {
   background-color: rgba(200, 165, 75)
+}
+
+.menu7 .submenu li:hover {
+  background-color: rgba(210, 77, 50)
+}
+
+.menu8 .submenu li:hover {
+  background-color: rgba(210, 77, 50)
 }
