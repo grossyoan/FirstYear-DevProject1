@@ -115,6 +115,11 @@ nav li:hover .submenu {
   background-color: rgba(000, 160, 240)
 }
 
+.menu3 .submenu li {
+  background-color: #e5c6e0;
+  background-color: rgba(230, 100, 40)
+}
+
 .menu4 .submenu li {
   background-color: #f6f4bd;
   background-color: rgba(250, 215, 100)
@@ -141,6 +146,11 @@ nav li:hover .submenu {
 
 .menu2 .submenu li:hover {
   background-color: rgba(210, 77, 60)
+}
+
+.menu3 .submenu li {
+  background-color: #d2f6ac;
+  background-color: rgba(130, 110, 40)
 }
 
 .menu4 .submenu li:hover {
