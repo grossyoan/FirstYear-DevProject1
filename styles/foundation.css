@@ -164,3 +164,36 @@ nav li:hover .submenu {
 .menu8 .submenu li:hover {
   background-color: rgba(210, 77, 50)
 }
+
+/*footer
+
+si vous trouvez pourquoi c'est caput dite le moi
+*/
+footer{
+  width: 960px;
+  display: column;
+}
+footer img{
+  width: 64px;
+  margin: 10px;
+}
+
+.social_link li{
+  list-style-type: none;
+  float: right;
+  text-align: center;
+}
+
+.inner_link a{
+  text-decoration: none;
+  color: black;
+
+}
+.inner_link li{
+  margin: 25px;
+  list-style-type: none;
+  float: right;
+}
+.inner_link{
+  text-align: center;
+}
