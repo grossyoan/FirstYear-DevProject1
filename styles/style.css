@@ -134,6 +134,31 @@ main{
   height:1000px;
 }
 
+
+.flashSale{
+  position: relative;
+  text-align: center;
+  float:left;
+  width: 40%;
+  background-color:#fcfcfc;
+  -webkit-box-shadow: 4px 4px 23px -2px rgba(255,250,234,1);
+  -moz-box-shadow: 4px 4px 23px -2px rgba(255,250,234,1);
+  box-shadow: 4px 4px 23px -2px rgba(255,250,234,1);
+}
+
+.flashSale img{
+  width:20%;
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.flashSale div{
+  left: 40px;
+  position: absolute;
+  bottom:30px;
+  width: 60%;
+}
 .aboutUs{
   position: relative;
   border-radius: 5px;
