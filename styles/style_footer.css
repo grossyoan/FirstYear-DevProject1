@@ -2,9 +2,9 @@
   width: 600px;
   border-radius: 5px;
   background-color:#FCFCFC;
-  margin: 0 auto;
-  margin-top: 50px;
+  margin: 50px auto 0px auto;
   text-align: center;
+  padding-bottom: 10px;
 }
 .newsletter button{
 height: 70px;
@@ -24,7 +24,7 @@ si vous trouvez pourquoi c'est caput dite le moi
 
 footer{
   width: 960px;
-  margin: 50px auto 0px auto;
+  margin: 100px auto 0px auto;
   text-align: center;
 }
 
