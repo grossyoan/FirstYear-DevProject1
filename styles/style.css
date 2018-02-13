@@ -141,9 +141,9 @@ main{
   float:left;
   width: 40%;
   background-color:#fcfcfc;
-  -webkit-box-shadow: 4px 4px 23px -2px rgba(255,250,234,1);
-  -moz-box-shadow: 4px 4px 23px -2px rgba(255,250,234,1);
-  box-shadow: 4px 4px 23px -2px rgba(255,250,234,1);
+  -webkit-box-shadow: 10px 10px 26px 0px rgba(255,219,218,1);
+  -moz-box-shadow: 10px 10px 26px 0px rgba(255,219,218,1);
+  box-shadow: 10px 10px 26px 0px rgba(255,219,218,1);
 }
 
 .flashSale img{
@@ -192,11 +192,11 @@ main{
 
 .mainProducts{
   border-radius: 5px;
-  margin-top: 50px;
   -webkit-box-shadow: 4px 4px 23px -2px rgba(255,250,234,1);
   -moz-box-shadow: 4px 4px 23px -2px rgba(255,250,234,1);
   box-shadow: 4px 4px 23px -2px rgba(255,250,234,1);
   width: 80%;
+  margin : 50px auto 0px auto;
   height: auto;
   background-color:#fcfcfc;
 }
