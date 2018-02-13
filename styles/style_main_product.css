@@ -1,0 +1,29 @@
+.grd_rect{
+  width: 1200px;
+  height: 700px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+#little_squares{
+  width: 200px;
+  padding: 30px;
+  
+}
+#little_squares .carre{
+
+  width: 200px;
+  height: 150px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+#little_squares .prod_little_square{
+  width: 150px;
+  height: 100px;
+  padding: 30px;
+}
+
+.prod_global{
+  width: 400px;
+  height: 300px;
+}
