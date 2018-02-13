@@ -1,3 +1,9 @@
+.newsletter form{
+  display: flex;
+  justify-content: space-around;
+  background-color:#fcfcfc;
+  margin: 0 auto;
+}
 .newsletter{
   width: 600px;
   border-radius: 5px;
