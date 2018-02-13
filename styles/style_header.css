@@ -1,0 +1,127 @@
+body {
+  margin: 0px;
+  background-color: #fcfcf9;
+      font-family: 'Della Respira', serif;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+}
+
+header img {
+  margin: 0 auto;
+  width: 30%;
+}
+
+nav {
+  width: 960px;
+  margin: 0 auto;
+  font-size: 0.83em;
+}
+
+nav>ul {
+  margin: 0px;
+  position: relative;
+  padding: 0px;
+}
+
+
+
+nav>ul>li::after {
+  content: "";
+  clear: both;
+  position: absolute;
+  background-color: black;
+  height: 100%;
+  top: 0;
+  width: 2px;
+  display: block;
+}
+nav>ul>li:first-child::after {
+  content: "";
+  width: 0 !important;
+  background-color: white !important;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav ul li{
+  position: relative;
+}
+
+
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav>ul>li {
+  float: left;
+  position: relative;
+}
+
+nav>ul>li>a {
+  padding: 10px 20px;
+  color: black;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+.submenu {
+  display: none;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+}
+nav li:hover .submenu {
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  padding: 0px;
+  z-index: 1000;
+}
+
+nav>ul>li:nth-last-child(-n+2)::after {
+  content: "";
+  width: 0 !important;
+  background-color: white !important;
+}
+
+.submenu li {
+  border-bottom: 1px solid #BBB;
+}
+
+.submenu li a {
+  background-color :#FCF9EF;
+  padding: 15px 15px;
+  font-size: 13px;
+  color: black;
+  width: 150px;
+}
+
+.menu:hover {
+  background-color: rgba(241, 211, 79, 0.15);  transition: ease-in 0.1s;
+}
+
+
+.submenu li:hover a {
+  color: #DE8496;
+
+}
+
+.menu .submenu li:hover {
+  background-color: rgba(210, 77, 50)
+}
+
+.accountBag{
+  float:right;
+}

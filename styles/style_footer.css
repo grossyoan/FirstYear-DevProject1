@@ -1,0 +1,49 @@
+.clearBoth{
+  clear: both;
+}
+
+footer{
+  width: 960px;
+  margin: 200px auto 0px auto;
+  text-align: center;
+}
+
+
+footer img{
+  width: 64px;
+  margin: 10px 10px 0px 10px;
+}
+.social_link ul{
+  padding-left: 0px;
+}
+
+.social_link li{
+  display: inline-block;
+  list-style-type: none;
+}
+.inner_link ul{
+  padding:0px;
+}
+.inner_link ul li a{
+  padding: 0px;
+  text-decoration: none;
+  color: black;
+
+}
+.inner_link ul li:first-child{
+  padding: 0px 0px 0px 10px;
+}
+.inner_link li{
+  display:inline-block;
+  margin: 0px 15px;
+  list-style-type: none;
+}
+.inner_link{
+  text-align: center;
+}
+
+#chat{
+  position:fixed;
+  bottom: 50px;
+  right: 50px;
+}
