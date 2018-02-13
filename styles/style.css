@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   /*background-color: #fcfcf9; */
-  background-image: url('../images/test.jpg');
+  background-image: url('../images/background.jpg');
   font-family: 'Della Respira', serif;
 }
 
@@ -11,12 +11,12 @@ header {
 }
 
 header img {
-  margin: 0 auto;
+  margin: 0% 5% 0% 0%;
   width: 30%;
 }
 
 nav {
-  width: 960px;
+  width: 650px;
   margin: 0 auto;
   font-size: 0.83em;
 }
@@ -91,11 +91,7 @@ nav li:hover .submenu {
   z-index: 1000;
 }
 
-nav>ul>li:nth-last-child(-n+2)::after {
-  content: "";
-  width: 0 !important;
-  background-color: white !important;
-}
+
 
 .submenu li {
   border-bottom: 1px solid #BBB;
@@ -124,10 +120,19 @@ nav>ul>li:nth-last-child(-n+2)::after {
 }
 
 .accountBag{
+  margin-right:30px;
+  font-size: 0.83em;
   float:right;
+  list-style-type: none;
 }
 
-
+.accountBag a{
+  display:inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  padding-right: 20px;
+}
 
 main{
   margin:50px auto 0px auto;
