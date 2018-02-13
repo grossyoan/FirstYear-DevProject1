@@ -138,21 +138,23 @@ nav li:hover .submenu {
 .panier{
   display:flex;
   justify-content: flex-start;
-  width:140px;
+  width:150px;
   padding-right: 20px;
 }
 .panier img{
   margin-left: 14px;
   width:25px;
+  height: 26px;
 
 }
 .creditCard{
-  width:300px;
+  width:310px;
   display:flex;
 }
 .creditCard img{
   margin-left: 14px;
   width:25px;
+  height: 26px;
 }
 
 
