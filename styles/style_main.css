@@ -1,3 +1,4 @@
+
 main{
   margin:50px auto 0px auto;
   width: 100%;
@@ -30,6 +31,9 @@ main{
   width: 60%;
 }
 
+.flashSale div p{
+  font-size: 1em;
+}
 .flashSale h1{
   text-align: center;
 }
@@ -68,17 +72,31 @@ main{
 .sliderProducts{
   padding: 10px 0px 20px 0px;
   width: 960px;
+  height: 500px;
   margin: 60px auto 100px auto;
   background-color: #fcfcfc;
-  text-align: center;
   -webkit-box-shadow: 0px 0px 51px 20px rgba(255,223,221,1);
 -moz-box-shadow: 0px 0px 51px 20px rgba(255,223,221,1);
 box-shadow: 0px 0px 51px 20px rgba(255,223,221,1);
 }
 
+.sliderProducts h1{
+  margin-left: 50px;
+}
+.sliderProducts div{
+  margin-right: 50px;
+  display: flex;
+  float: right;
+}
+#textSlider{
+  font-size: 1.3em;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
 .ism-slider{
   width: 400px;
-  margin:0 auto;
 }
 .ism-caption a{
   font-family: 'Della Respira', serif;
@@ -97,15 +115,6 @@ box-shadow: 0px 0px 51px 20px rgba(255,223,221,1);
 }
 
 
-
-
-/* product css*/
-
-.productPanel{
-  display:flex;
-
-
-}
 input[type=text]{
   margin: 5px 0px;
   padding:3px;
