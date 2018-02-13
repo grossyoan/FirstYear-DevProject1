@@ -115,7 +115,7 @@ nav>ul>li:nth-last-child(-n+2)::after {
 
 .submenu li:hover a {
   color: #DE8496;
-  font-weight: bold;
+
 }
 
 .menu .submenu li:hover {
