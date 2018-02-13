@@ -258,12 +258,20 @@ input[type=text]{
   box-shadow:1px 1px 2px #C0C0C0 inset;
 }
 
-button{
+.flashSale button{
+margin-top: 20px;
 padding:3px;
 border:1px solid #F5C5C5;
 border-radius:5px;
 width:200px;
-height:70px;
+box-shadow:1px 1px 2px #C0C0C0 inset;
+}
+.newsletter button{
+height: 70px;
+padding:3px;
+border:1px solid #F5C5C5;
+border-radius:5px;
+width:200px;
 box-shadow:1px 1px 2px #C0C0C0 inset;
 }
 /*footer
