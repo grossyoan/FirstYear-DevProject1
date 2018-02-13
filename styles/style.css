@@ -164,11 +164,12 @@ main{
   width: 60%;
 }
 .aboutUs{
-  position: relative;
+  float:right;
+  display:flex;
+  justify-content: space-around;
   -webkit-box-shadow: -22px 10px 26px 0px rgba(255,219,218,1);
   -moz-box-shadow: -22px 10px 26px 0px rgba(255,219,218,1);
   box-shadow: -22px 10px 26px 0px rgba(255,219,218,1);
-  float: right;
   width: 55%;
   height: 25%;
   background-color:#fcfcfc;
@@ -176,18 +177,16 @@ main{
 
 .aboutUs h1{
   margin-left: 50px;
-  float: left;
 }
-.aboutUs div{
-  margin-left: 50px;
-  width:500px;
-  float: left;
+.aboutUs p{
+  width: 400px;
+
 }
+
 .aboutUs img{
-  position:absolute;
-  right: 15%;
-  top: 7%;
-  width: 15%;
+  width: 160px;
+  height: 200px;
+  margin-top: 25px;
 }
 
 .mainProducts{
