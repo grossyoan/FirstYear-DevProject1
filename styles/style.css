@@ -147,6 +147,9 @@ main{
 }
 
 .flashSale img{
+  -webkit-box-shadow: 0px 0px 0px 11px rgba(252,248,248,1);
+  -moz-box-shadow: 0px 0px 0px 11px rgba(252,248,248,1);
+  box-shadow: 0px 0px 0px 11px rgba(252,248,248,1);
   width:20%;
   float: right;
   margin-right: 20px;
@@ -202,6 +205,13 @@ main{
   margin-left: 20px;
   margin-top: 10px;
 }
+
+.mainProducts img{
+  -webkit-box-shadow: 0px 0px 0px 11px rgba(252,248,248,1);
+-moz-box-shadow: 0px 0px 0px 11px rgba(252,248,248,1);
+box-shadow: 0px 0px 0px 11px rgba(252,248,248,1);
+}
+
 #e587e5
 /*#e587e5 pour les test ne pas utilisé  */
 .newsletter{
