@@ -303,3 +303,9 @@ footer img{
 .inner_link{
   text-align: center;
 }
+
+#chat{
+  position:fixed;
+  bottom: 50px;
+  right: 50px;
+}
