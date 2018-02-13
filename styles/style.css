@@ -10,7 +10,7 @@ header {
   text-align: center;
 }
 
-header img {
+#logo_site{
   margin: 0% 5% 0% 0%;
   width: 30%;
 }
@@ -119,28 +119,48 @@ nav li:hover .submenu {
   background-color: rgba(210, 77, 50)
 }
 
-.accountBag{
-  margin-right:30px;
-  font-size: 0.83em;
+
+.adds{
+  margin-top:10px;
   float:right;
+  display: flex;
+  justify-content: flex-start;
   list-style-type: none;
 }
 
 .accountBag a{
-  font-size: 1.3em;
-  display:inline-block;
-  padding: 10px 20px;
+  font-size: 1.1em;
   text-decoration: none;
   color: black;
+}
+
+
+.panier{
+  display:flex;
+  justify-content: flex-start;
+  width:140px;
   padding-right: 20px;
 }
+.panier img{
+  margin-left: 14px;
+  width:25px;
+
+}
+.creditCard{
+  width:300px;
+  display:flex;
+}
+.creditCard img{
+  margin-left: 14px;
+  width:25px;
+}
+
 
 main{
   margin:50px auto 0px auto;
   width: 100%;
   height:1000px;
 }
-
 
 .flashSale{
   position: relative;
