@@ -1,5 +1,19 @@
-.product {
-  width: 960px;
-  height: 400px;
-  
+.grd_rect{
+  width: 1200px;
+  height: 700px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+#petits_carres{
+  width: 200px;
+  padding: 30px;
+}
+#petits_carres .carre{
+
+  width: 200px;
+  height: 150px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+
 }
