@@ -217,7 +217,7 @@ box-shadow: 0px 0px 0px 11px rgba(252,248,248,1);
   padding-left: 50px;
   width: 80%;
 }
-#e587e5
+
 /*#e587e5 pour les test ne pas utilisé  */
 .newsletter{
   background-color:#fcfcfc;
@@ -271,7 +271,7 @@ si vous trouvez pourquoi c'est caput dite le moi
 
 footer{
   width: 960px;
-  margin: 50px auto 0px auto;
+  margin: 200px auto 0px auto;
   text-align: center;
 }
 
