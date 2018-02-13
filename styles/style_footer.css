@@ -1,0 +1,69 @@
+.newsletter{
+  width: 600px;
+  border-radius: 5px;
+  background-color:#FCFCFC;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+.newsletter button{
+height: 70px;
+padding:3px;
+border:1px solid #F5C5C5;
+border-radius:5px;
+width:200px;
+box-shadow:1px 1px 2px #C0C0C0 inset;
+}
+/*footer
+
+si vous trouvez pourquoi c'est caput dite le moi
+*/
+.clearBoth{
+  clear: both;
+}
+
+footer{
+  width: 960px;
+  margin: 200px auto 0px auto;
+  text-align: center;
+}
+
+
+footer img{
+  width: 64px;
+  margin: 10px 10px 0px 10px;
+}
+.social_link ul{
+  padding-left: 0px;
+}
+
+.social_link li{
+  display: inline-block;
+  list-style-type: none;
+}
+.inner_link ul{
+  padding:0px;
+}
+.inner_link ul li a{
+  padding: 0px;
+  text-decoration: none;
+  color: black;
+
+}
+.inner_link ul li:first-child{
+  padding: 0px 0px 0px 10px;
+}
+.inner_link li{
+  display:inline-block;
+  margin: 0px 15px;
+  list-style-type: none;
+}
+.inner_link{
+  text-align: center;
+}
+
+#chat{
+  position:fixed;
+  bottom: 50px;
+  right: 50px;
+}

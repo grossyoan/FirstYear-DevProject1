@@ -1,0 +1,126 @@
+main{
+  margin:50px auto 0px auto;
+  width: 100%;
+  height:1000px;
+}
+
+.flashSale{
+  position: relative;
+  text-align: center;
+  float:left;
+  width: 40%;
+  height: 25%;
+  background-color:#fcfcfc;
+  -webkit-box-shadow: 10px 10px 26px 0px rgba(255,219,218,1);
+  -moz-box-shadow: 10px 10px 26px 0px rgba(255,219,218,1);
+  box-shadow: 10px 10px 26px 0px rgba(255,219,218,1);
+}
+
+.flashSale img{
+  -webkit-box-shadow: 0px 0px 0px 11px rgba(252,248,248,1);
+  -moz-box-shadow: 0px 0px 0px 11px rgba(252,248,248,1);
+  box-shadow: 0px 0px 0px 11px rgba(252,248,248,1);
+  width:20%;
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.flashSale div{
+  left: 40px;
+  position: absolute;
+  bottom:30px;
+  width: 60%;
+}
+.aboutUs{
+  float:right;
+  display:flex;
+  justify-content: space-around;
+  -webkit-box-shadow: -22px 10px 26px 0px rgba(255,219,218,1);
+  -moz-box-shadow: -22px 10px 26px 0px rgba(255,219,218,1);
+  box-shadow: -22px 10px 26px 0px rgba(255,219,218,1);
+  width: 55%;
+  height: 25%;
+  background-color:#fcfcfc;
+}
+
+.aboutUs h1{
+  margin-left: 50px;
+}
+.aboutUs p{
+  width: 400px;
+
+}
+
+.aboutUs img{
+  width: 160px;
+  height: 200px;
+  margin-top: 25px;
+}
+
+.mainProducts{
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 4px 23px -2px rgba(255,250,234,0.6);
+  -moz-box-shadow: 4px 4px 23px -2px rgba(255,250,234,0.6);
+  box-shadow: 4px 4px 23px -2px rgba(255,250,234,0.6);
+  width: 80%;
+  margin : 50px auto 0px auto;
+  height: auto;
+  background-color: rgba(252,252,252,0.7);
+}
+
+.mainProducts h1{
+  padding-left: 40px;
+  padding-top: 15px;
+}
+
+.mainProducts img{
+  margin-left: 50px;
+  -webkit-box-shadow: 0px 0px 0px 11px rgba(252,248,248,1);
+-moz-box-shadow: 0px 0px 0px 11px rgba(252,248,248,1);
+box-shadow: 0px 0px 0px 11px rgba(252,248,248,1);
+}
+
+.mainProducts p{
+  padding-left: 50px;
+  width: 80%;
+}
+
+/*#e587e5 pour les test ne pas utilisé  */
+
+
+
+.newsletter form{
+  display: flex;
+  justify-content: space-around;
+  background-color:#fcfcfc;
+  margin: 0 auto;
+}
+
+
+
+
+/* product css*/
+
+.productPanel{
+  display:flex;
+
+
+}
+input[type=text]{
+  margin: 5px 0px;
+  padding:3px;
+  border:1px solid #F5C5C5;
+  border-radius:5px;
+  width:200px;
+  box-shadow:1px 1px 2px #C0C0C0 inset;
+}
+
+.flashSale button{
+margin-top: 20px;
+padding:3px;
+border:1px solid #F5C5C5;
+border-radius:5px;
+width:200px;
+box-shadow:1px 1px 2px #C0C0C0 inset;
+}
