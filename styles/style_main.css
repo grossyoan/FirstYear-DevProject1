@@ -5,8 +5,9 @@ main{
 }
 
 .flashSale{
-  position: relative;
-  text-align: center;
+  overflow:auto;
+  display: flex;
+  justify-content: space-between;
   float:left;
   width: 40%;
   height: 25%;
@@ -16,23 +17,29 @@ main{
   box-shadow: 10px 10px 26px 0px rgba(255,219,218,1);
 }
 
+
 .flashSale img{
-  -webkit-box-shadow: 0px 0px 0px 11px rgba(252,248,248,1);
-  -moz-box-shadow: 0px 0px 0px 11px rgba(252,248,248,1);
-  box-shadow: 0px 0px 0px 11px rgba(252,248,248,1);
-  width:20%;
-  float: right;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin-top:20px;
+  margin-right:20px;
+  width:200px;
+  height: 200px;
 }
 
 .flashSale div{
-  left: 40px;
-  position: absolute;
-  bottom:30px;
+  margin-left:50px;
   width: 60%;
 }
+
+.flashSale h1{
+  text-align: center;
+}
+
+.flashSale form{
+  text-align: center;
+}
+
 .aboutUs{
+  overflow: auto;
   float:right;
   display:flex;
   justify-content: space-around;
@@ -58,36 +65,28 @@ main{
   margin-top: 25px;
 }
 
-.mainProducts{
-  border-radius: 5px;
-  -webkit-box-shadow: 4px 4px 23px -2px rgba(255,250,234,0.6);
-  -moz-box-shadow: 4px 4px 23px -2px rgba(255,250,234,0.6);
-  box-shadow: 4px 4px 23px -2px rgba(255,250,234,0.6);
-  width: 80%;
-  margin : 50px auto 0px auto;
-  height: auto;
-  background-color: rgba(252,252,252,0.7);
+.sliderProducts{
+  padding: 10px 0px 20px 0px;
+  width: 960px;
+  margin: 60px auto 0px auto;
+  background-color: #fcfcfc;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 51px 20px rgba(255,223,221,1);
+-moz-box-shadow: 0px 0px 51px 20px rgba(255,223,221,1);
+box-shadow: 0px 0px 51px 20px rgba(255,223,221,1);
 }
 
-.mainProducts h1{
-  padding-left: 40px;
-  padding-top: 15px;
+.ism-slider{
+  width: 400px;
+  margin:0 auto;
 }
-
-.mainProducts img{
-  margin-left: 50px;
-  -webkit-box-shadow: 0px 0px 0px 11px rgba(252,248,248,1);
--moz-box-shadow: 0px 0px 0px 11px rgba(252,248,248,1);
-box-shadow: 0px 0px 0px 11px rgba(252,248,248,1);
-}
-
-.mainProducts p{
-  padding-left: 50px;
-  width: 80%;
+.ism-caption a{
+  font-family: 'Della Respira', serif;
+  text-decoration: none;
+  color:white;
 }
 
 /*#e587e5 pour les test ne pas utilisé  */
-
 
 
 .newsletter form{

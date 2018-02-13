@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="styles/style_footer.css">
   <link rel="stylesheet" href="styles/style_main.css">
   <link href="https://fonts.googleapis.com/css?family=Della+Respira|Quicksand" rel="stylesheet">
+  <link rel="stylesheet" href="styles/my-slider.css"/>
+  <script src="scripts/ism-2.2.min.js"></script>
 </head>
 <body>
   <header>
@@ -76,42 +78,44 @@
   </div>
   <main>
     <div class="flashSale">
-      <h1>Offre spéciale !</h1>
-      <img src="images/sac.jpg" alt="Sac vente Flash">
       <div>
+        <h1>Offre spéciale !</h1>
         Profitez de notre sac de transport, idéal pour les affaires de bébé, à moitié prix aujourd'hui seulement ! Obtenez le dès maintenant pour 14.99€ !
         <form action="http://google.com">
           <button type="submit" name="buy">Achetez vite !</button>
         </form>
       </div>
+      <img src="images/sac.jpg" alt="Sac vente Flash">
     </div>
     <div class="aboutUs">
       <div>
         <h1>À propos de nous</h1>
         <p>Douce de Po, c’est d’abord l’envie d’une *maman rêveuse* de faire découvrir son monde féérique et rempli de douceur à toutes celles qui viennent de donner la vie.</p>
       </div>
-        <img src="images/CEO.jpg" alt="Photo de la présidente"/>
+      <img src="images/CEO.jpg" alt="Photo de la présidente"/>
     </div>
     <div class="clearBoth">
     </div>
     <!-- Produits -->
-    <div class="mainProducts">
+    <div class='sliderProducts'>
       <h1>Nos produits phares</h1>
-      <div class="productPanel">
-      <div class="product">
-        <img src="images/bavoies.jpg" alt="Bavoires"/>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
-      <div class="product">
-        <img src="images/chaussons.jpg" alt="Chaussons"/>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
-      <div class="product">
-        <img src="images/balade.jpg" alt="Robe de balade"/>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
+    <div class="ism-slider" data-play_type="loop" data-interval="3000" data-radios="false" id="my-slider">
+      <ol>
+        <li>
+          <img src="images/bavoir.jpg">
+          <div class="ism-caption ism-caption-0"><a href="http://google.fr">Un bavoir de toute beauté</a></div>
+        </li>
+        <li>
+          <img src="images/slides/_u/gigoteuse.jpg">
+          <div class="ism-caption ism-caption-0"><a href="http://google.fr">Une gigoteuse pleine de charme..</a></div>
+        </li>
+        <li>
+          <img src="images/sac.jpg">
+          <div class="ism-caption ism-caption-0"><a href="http://google.fr">Un sac pour les affaires de Bébé</a></div>
+        </li>
+      </ol>
     </div>
-    </div>
+  </div>
     <div class="newsletter">
       <h1>Inscrivez-vous à notre Newsletter !</h1>
       <form action="http://google.com">
@@ -135,7 +139,7 @@
     <div class="clearBoth">
     </div>
   	<div class="inner_link">
-  		<ul >
+  		<ul>
 	  		<li><a href="*/" alt="CGV">CGV </a> </li>
 	  		<li><a href="*/" alt="Contact">Contact </a> </li>
 	  		<li><a href="*/" alt="Partenaires">Partenaires </a> </li>
@@ -143,10 +147,6 @@
   	</div>
   </footer>
   <a href="/*"><img id="chat" src="images/fixed_1.png" alt="Boite de chat"></img></a>
-  <script src="scripts/vendor/jquery.js"></script>
-  <script src="scripts/vendor/what-input.js"></script>
-  <script src="scripts/vendor/foundation.js"></script>
-  <script src="scripts/app.js"></script>
 </body>
 
 </html>
