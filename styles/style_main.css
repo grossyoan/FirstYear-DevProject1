@@ -76,8 +76,8 @@ main{
   margin: 60px auto 100px auto;
   background-color: #fcfcfc;
   -webkit-box-shadow: 0px 0px 51px 20px rgba(255,223,221,1);
--moz-box-shadow: 0px 0px 51px 20px rgba(255,223,221,1);
-box-shadow: 0px 0px 51px 20px rgba(255,223,221,1);
+  -moz-box-shadow: 0px 0px 51px 20px rgba(255,223,221,1);
+  box-shadow: 0px 0px 51px 20px rgba(255,223,221,1);
 }
 
 .sliderProducts h1{
@@ -92,7 +92,6 @@ box-shadow: 0px 0px 51px 20px rgba(255,223,221,1);
   font-size: 1.3em;
   width: 350px;
   display: flex;
-  align-items: center;
   text-align: left;
 }
 .ism-slider{
@@ -125,10 +124,13 @@ input[type=text]{
 }
 
 .flashSale button{
-margin-top: 20px;
-padding:3px;
-border:1px solid #F5C5C5;
-border-radius:5px;
-width:200px;
-box-shadow:1px 1px 2px #C0C0C0 inset;
+  margin-top: 20px;
+  padding:3px;
+  border:1px solid #F5C5C5;
+  border-radius:5px;
+  width:200px;
+  box-shadow:1px 1px 2px #C0C0C0 inset;
+  font-size: 1.3em;
+  background-color: #FEE5E4;
+  cursor: pointer;
 }
