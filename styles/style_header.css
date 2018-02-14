@@ -33,10 +33,10 @@ nav>ul>li::after {
   content: "";
   clear: both;
   position: absolute;
-  background-color: black;
+  background-color: #ffe7dd;
   height: 100%;
   top: 0;
-  width: 2px;
+  width: 1px;
   display: block;
 }
 nav>ul>li:first-child::after {

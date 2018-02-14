@@ -44,14 +44,13 @@ input[type="text"] {
     box-shadow: 1px 1px 2px #C0C0C0 inset;
 }
 
-
 .clearBoth{
   clear: both;
 }
 
 footer{
   width: 960px;
-  margin: 100px auto 0px auto;
+  margin: 0px auto 0px auto;
   text-align: center;
 }
 
