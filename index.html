@@ -80,27 +80,28 @@
     <div class='sliderProducts'>
       <h1>Nos produits phares</h1>
       <div>
-        <div id="textSlider">
-          De la gigoteuse à l'indispensable bavoir, il y en a pour tous besoins, et surtout pour tous les goûts. Tous nos produits sont faits avec amour, alors n'hésitez pas à y jeter un oeil. Voici justement quelque-uns de nos produits phares. Alors qu'attendez-vous ?
-        </div>
-    <div class="ism-slider" data-play_type="loop" data-interval="3000" data-radios="false" id="my-slider">
-      <ol>
-        <li>
-          <img src="images/bavoir.jpg">
-          <div class="ism-caption ism-caption-0"><a href="http://google.fr">Un bavoir de toute beauté</a></div>
-        </li>
-        <li>
-          <img src="images/gigoteuse.jpg">
-          <div class="ism-caption ism-caption-0"><a href="http://google.fr">Une gigoteuse pleine de charme..</a></div>
-        </li>
-        <li>
-          <img src="images/sac.jpg">
-          <div class="ism-caption ism-caption-0"><a href="http://google.fr">Un sac pour les affaires de Bébé</a></div>
-        </li>
-      </ol>
+        <img class="slides" src="images/bavoirs.jpg"/>
+        <img class="slides" src="images/bavoir.jpg"/>
+        <img class="slides" src="images/bavoirs.jpg"/>
+        <img class="slides" src="images/bavoir.jpg"/>
+      </div>
+      <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("slides");
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}
+            x[myIndex-1].style.display = "block";
+            setTimeout(carousel, 5000); // Change image every 2 seconds
+        }
+      </script>
     </div>
-  </div>
-  </div>
     <div class="flashSale">
       <div>
         <h1>Offre spéciale !</h1>
