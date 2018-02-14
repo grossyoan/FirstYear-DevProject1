@@ -40,13 +40,29 @@ main{
 
 }
 
-.productSheet{
+#productSheet{
   font-family: Arial;
   padding:30px;
   width:460px;
   height:160px;
 }
-.productSheet h1{
+#productSheet h1{
   font-weight: normal;
   font-size: 1.7em;
+}
+
+#productSheet .barre{
+  border-bottom: solid black 1px;
+  height: 2px;
+}
+
+select{
+  height: 25px;
+  width: 200px;
+	line-height: 4px;
+	vertical-align: middle;
+	margin: 52px;
+	padding: 0 4px;
+	border: black solid 0.5px;
+	font-size: 0.8em;
 }
