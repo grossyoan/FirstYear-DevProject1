@@ -2,7 +2,7 @@ main {
   display: flex;
   justify-content: space-between;
   width: 1200px;
-  height: 700px;
+  height: 1015px;
   -webkit-box-shadow: 0px 0px 20px 10px rgba(255, 223, 221, 0.3);
   -moz-box-shadow: 0px 0px 20px 10px rgba(255, 223, 221, 0.3);
   box-shadow: 0px 0px 20px 10px rgba(255, 223, 221, 0.3);
@@ -184,7 +184,7 @@ padding: 10px;
   font-size: 1.4em;
 }
 #grande_div{
-  margin-top: 140px;
+  margin-top: 120px;
   margin-right: 50px;
 
 }
@@ -194,7 +194,7 @@ padding: 10px;
   display: flex;
   align-content: space-between;
 }
- 
+
 #grande_div .moitié2 {
   width: 100%;
   display: flex;
@@ -212,6 +212,7 @@ padding: 10px;
 
 .CEO>p{
   margin-left: 10px;
+  margin-top: -5px;
 }
 .img_ceo{
   width: 150px;
