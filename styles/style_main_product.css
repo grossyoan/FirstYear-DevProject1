@@ -120,9 +120,9 @@ main {
 }
 
 .quantite form select {
-  -webkit-box-shadow: 14px 10px 33px -11px rgba(222, 132, 150, 1);
-  -moz-box-shadow: 14px 10px 33px -11px rgba(222, 132, 150, 1);
-  box-shadow: 14px 10px 33px -11px rgba(222, 132, 150, 1);
+  -webkit-box-shadow: 14px 10px 33px -11px rgba(222, 132, 150, 0.3);
+  -moz-box-shadow: 14px 10px 33px -11px rgba(222, 132, 150, 0.3);
+  box-shadow: 14px 10px 33px -11px rgba(222, 132, 150, 0.3);
   border-color: #FEE5E4;
   padding: 3px;
   background: #FEE5E4;
