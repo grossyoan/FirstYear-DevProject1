@@ -9,6 +9,7 @@ main{
   margin: 50px auto 0px auto;
   background-color: rgba(252,252,252, 0.6);
 }
+
 .grd_rect{
   display: flex;
   align-items: center;
@@ -25,7 +26,7 @@ main{
   text-align: center;
   width: 200px;
   height: 150px;
-  border: 1px solid black;
+  border: 1px solid #FEE7E6;
   margin-bottom: 10px;
 }
 #little_squares .prod_little_square{
@@ -81,6 +82,21 @@ main{
 .taille form{
   margin-top: 21px;
 }
+.taille form select{
+  border-color:#FEE5E4;
+  padding:3px;
+  background: #FEE5E4;
+  margin: 0;
+  border-radius:4px;
+  display: inline-block;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  cursor:pointer;
+  -webkit-box-shadow: 14px 10px 33px -11px rgba(222,132,150,1);
+  -moz-box-shadow: 14px 10px 33px -11px rgba(222,132,150,1);
+  box-shadow: 14px 10px 33px -11px rgba(222,132,150,1);
+}
 
 .quantite{
   float: left;
@@ -92,13 +108,34 @@ main{
 .quantite form{
   margin-top: 21px;
 }
+.quantite form select{
+  -webkit-box-shadow: 14px 10px 33px -11px rgba(222,132,150,1);
+  -moz-box-shadow: 14px 10px 33px -11px rgba(222,132,150,1);
+  box-shadow: 14px 10px 33px -11px rgba(222,132,150,1);
+  border-color:#FEE5E4;
+  padding:3px;
+  background: #FEE5E4;
+    margin: 0;
+    border-radius:4px;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
 .achat button{
-  text-transform: capitalize;
-
+  margin: 13px 20px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #FEE5E4;
 }
 .achat div{
-  margin: 20px 0px;
+  margin: 20px 20px;
 }
 .achat{
   float: right;
+}
+
+div.achat{
+  display: flex;
 }
