@@ -10,8 +10,9 @@
   <link rel="stylesheet" href="styles/style_footer.css">
   <link rel="stylesheet" href="styles/style_main.css">
   <link href="https://fonts.googleapis.com/css?family=Della+Respira|Quicksand" rel="stylesheet">
-  <link rel="stylesheet" href="styles/my-slider.css"/>
-  <script src="scripts/ism-2.2.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/style_slider.css" />
+  <script src="scripts/modernizr.custom.63321.js"></script>
 </head>
 <body>
   <header>
@@ -78,32 +79,44 @@
   </header>
   <div class="clearBoth">
   </div>
-  <main>
-    <div class='sliderProducts'>
-      <h1>Nos produits phares</h1>
-      <div>
-        <a href="*/"><img class="slides" src="images/bavoirs_slide.jpg"/></a>
-        <a href="*/"><img class="slides" src="images/chaussons_slide.jpg"/></a>
-        <a href="*/"><img class="slides" src="images/sac_slide.jpg"/></a>
+  <h1 class="productList">Découvez nos produits !</h1>
+  <div class="container">
+    <div class="main">
+      <div id="mi-slider" class="mi-slider">
+        <ul>
+          <li><a href="#"><img src="images/1.png" alt="img01"><h4>Petit Loup Indien</h4></a></li>
+          <li><a href="#"><img src="images/2.png" alt="img02"><h4>Petite Pluie</h4></a></li>
+          <li><a href="#"><img src="images/3.png" alt="img03"><h4>Petit Monsieur</h4></a></li>
+          <li><a href="#"><img src="images/4.png" alt="img04"><h4>Encre Fleuris</h4></a></li>
+        </ul>
+        <ul>
+          <li><a href="#"><img src="images/5.png" alt="img05"><h4>Mille Etoiles n°1</h4></a></li>
+          <li><a href="#"><img src="images/6.png" alt="img06"><h4>n°1 Au Pays des Rêves</h4></a></li>
+          <li><a href="#"><img src="images/7.png" alt="img07"><h4>Cygnes n°2</h4></a></li>
+          <li><a href="#"><img src="images/8.png" alt="img08"><h4>Adeladja</h4></a></li>
+        </ul>
+        <ul>
+          <li><a href="#"><img src="images/9.png" alt="img09"><h4>Mille Etoiles</h4></a></li>
+          <li><a href="#"><img src="images/10.png" alt="img10"><h4>Petit Moussaillon</h4></a></li>
+          <li><a href="#"><img src="images/11.png" alt="img11"><h4>Au Pays des Rêves</h4></a></li>
+          <li><a href="#"><img src="images/12.png" alt="img11"><h4>Balade en Forêt</h4></a></li>
 
+        </ul>
+        <ul>
+          <li><a href="#"><img src="images/13.png" alt="img12"><h4>Mille Etoiles</h4></a></li>
+          <li><a href="#"><img src="images/14.png" alt="img13"><h4>Nuage Triangle</h4></a></li>
+          <li><a href="#"><img src="images/15.png" alt="img14"><h4>Violine</h4></a></li>
+          <li><a href="#"><img src="images/16.png" alt="img15"><h4>Lune</h4></a></li>
+        </ul>
+        <nav>
+          <a href="#">Gigoteuses</a>
+          <a href="#">Bavoirs</a>
+          <a href="#">Tapis à langer</a>
+          <a href="#">Peluches</a>
+        </nav>
       </div>
-      <script>
-        var myIndex = 0;
-        carousel();
-
-        function carousel() {
-            var i;
-            var x = document.getElementsByClassName("slides");
-            for (i = 0; i < x.length; i++) {
-               x[i].style.display = "none";
-            }
-            myIndex++;
-            if (myIndex > x.length) {myIndex = 1}
-            x[myIndex-1].style.display = "block";
-            setTimeout(carousel, 5000); // Change image every 5 seconds
-        }
-      </script>
     </div>
+  </div><!-- /container -->
     <div class="flashSale">
       <div>
         <h1>Offre spéciale !</h1>
@@ -163,5 +176,14 @@
     </form>
   </div>
   <a href="/*"><img id="chat" src="images/fixed_1.png" alt="Boite de chat"></img></a>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="scripts/jquery.catslider.js"></script>
+  <script>
+    $(function() {
+
+      $( '#mi-slider' ).catslider();
+
+    });
+  </script>
 </body>
 </html>
