@@ -1,0 +1,343 @@
+/* */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	body {
+	  margin: 0px;
+	  /*background-color: #fcfcf9; */
+	  background-image: url('../images/background.jpg');
+	  /*font-family: 'Della Respira', serif; */
+	}
+
+	header {
+	  width: 100%;
+	  text-align: center;
+	}
+
+	#logo_site{
+	  margin: 0% 0% 0% 10%;
+	  width: 40%;
+	}
+
+	nav {
+	  width: 768px;
+	  margin: 0 auto;
+	  font-size: 0.7em;
+	}
+
+	nav>ul {
+	  margin: 0px;
+	  position: relative;
+	  padding: 0px;
+	}
+
+
+
+	nav>ul>li::after {
+	  content: "";
+	  clear: both;
+	  position: absolute;
+	  background-color: #ffe7dd;
+	  height: 100%;
+	  top: 0;
+	  width: 1px;
+	  display: block;
+	}
+	nav>ul>li:first-child::after {
+	  content: "";
+	  width: 0 !important;
+	  background-color: white !important;
+	}
+
+	nav li {
+	  list-style-type: none;
+	}
+
+	nav ul li{
+	  position: relative;
+	}
+
+
+
+	nav ul li a {
+	  text-decoration: none;
+	  color: black;
+	}
+
+	nav>ul>li {
+	  float: left;
+	  position: relative;
+	}
+
+	nav>ul>li>a {
+	  padding: 10px 20px;
+	  color: black;
+	}
+
+	nav li {
+	  list-style-type: none;
+	}
+
+	.submenu {
+	  display: none;
+	}
+
+	nav a {
+	  display: inline-block;
+	  text-decoration: none;
+	}
+	nav li:hover .submenu {
+	  display: inline-block;
+	  position: absolute;
+	  top: 100%;
+	  left: 0px;
+	  padding: 0px;
+	  z-index: 1000;
+	}
+
+
+
+	.submenu li {
+	  border-bottom: 1px solid #BBB;
+
+	}
+
+	.submenu li a {
+	  background-color :#FCF9EF;
+	  padding: 15px 2px;
+	  font-size: 13px;
+	  color: black;
+	  width: 150px;
+	}
+
+	.menu:hover {
+	  background-color: rgba(241, 211, 79, 0.15);  transition: ease-in 0.1s;
+	}
+
+
+	.submenu li:hover a {
+	  color: #DE8496;
+
+	}
+
+	.menu .submenu li:hover {
+	  background-color: rgba(210, 77, 50)
+	}
+
+
+	.adds{
+	  margin-top:40px;
+	  margin-right: 160px;
+	  float:right;
+	  /*display: flex;*/
+	  justify-content: flex-start;
+	  list-style-type: none;
+	  font-size: 0.7em;
+
+	}
+
+
+	.accountBag a{
+	  font-size: 1em;
+	  text-decoration: none;
+	  color: black;
+	  
+	}
+
+
+
+	.panier{
+	  display:flex;
+	  justify-content: flex-start;
+	  width:130px;
+	  padding-right: 5px;
+	}
+	.panier img{
+	  margin-left: 20px;
+
+	  width:12px;
+	  height: 13px;
+
+	}
+	.creditCard{
+	  width:150px;
+	  display:flex;
+	}
+	.creditCard img{
+	  margin-left: 16px;
+	  width:12px;
+	  height: 13px;
+	}
+
+
+}
+
+/* style pour l'ipadPro*/
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+	body {
+	  margin: 0px;
+	  /*background-color: #fcfcf9; */
+	  background-image: url('../images/background.jpg');
+	  /*font-family: 'Della Respira', serif; */
+	}
+
+	header {
+	  width: 100%;
+	  text-align: center;
+	}
+
+	#logo_site{
+	  margin: 0% 0% 0% -10%;
+	  width: 30%;
+	}
+
+	nav {
+	  width: 960px;
+	  margin: 0 auto;
+	  font-size: 0.7em;
+	}
+
+	nav>ul {
+	  margin: 0px;
+	  position: relative;
+	  padding: 0px;
+	}
+
+
+
+	nav>ul>li::after {
+	  content: "";
+	  clear: both;
+	  position: absolute;
+	  background-color: #ffe7dd;
+	  height: 100%;
+	  top: 0;
+	  width: 1px;
+	  display: block;
+	}
+	nav>ul>li:first-child::after {
+	  content: "";
+	  width: 0 !important;
+	  background-color: white !important;
+	}
+
+	nav li {
+	  list-style-type: none;
+	}
+
+	nav ul li{
+	  position: relative;
+	}
+
+
+
+	nav ul li a {
+	  text-decoration: none;
+	  color: black;
+	}
+
+	nav>ul>li {
+	  float: left;
+	  position: relative;
+	}
+
+	nav>ul>li>a {
+	  padding: 10px 20px;
+	  color: black;
+	}
+
+	nav li {
+	  list-style-type: none;
+	}
+
+	.submenu {
+	  display: none;
+	}
+
+	nav a {
+	  display: inline-block;
+	  text-decoration: none;
+	}
+	nav li:hover .submenu {
+	  display: inline-block;
+	  position: absolute;
+	  top: 100%;
+	  left: 0px;
+	  padding: 0px;
+	  z-index: 1000;
+	}
+
+
+
+	.submenu li {
+	  border-bottom: 1px solid #BBB;
+
+	}
+
+	.submenu li a {
+	  background-color :#FCF9EF;
+	  padding: 15px 2px;
+	  font-size: 13px;
+	  color: black;
+	  width: 150px;
+	}
+
+	.menu:hover {
+	  background-color: rgba(241, 211, 79, 0.15);  transition: ease-in 0.1s;
+	}
+
+
+	.submenu li:hover a {
+	  color: #DE8496;
+
+	}
+
+	.menu .submenu li:hover {
+	  background-color: rgba(210, 77, 50)
+	}
+
+
+	.adds{
+	  margin-top:40px;
+	  margin-right: 160px;
+	  float:right;
+	  /*display: flex;*/
+	  justify-content: flex-start;
+	  list-style-type: none;
+	  font-size: 0.7em;
+
+	}
+
+
+	.accountBag a{
+	  font-size: 1em;
+	  text-decoration: none;
+	  color: black;
+	  
+	}
+
+
+
+	.panier{
+	  display:flex;
+	  justify-content: flex-start;
+	  width:130px;
+	  padding-right: 5px;
+	}
+	.panier img{
+	  margin-left: 20px;
+
+	  width:12px;
+	  height: 13px;
+
+	}
+	.creditCard{
+	  width:150px;
+	  display:flex;
+	}
+	.creditCard img{
+	  margin-left: 16px;
+	  width:12px;
+	  height: 13px;
+	}
+
+}
