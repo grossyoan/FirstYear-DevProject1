@@ -79,39 +79,9 @@ main{
   margin-top: 25px;
 }
 
-.sliderProducts{
-  padding: 10px 0px 20px 0px;
-  width: 960px;
-  height: 500px;
-  margin: 60px auto 100px auto;
-  background-color: #fcfcfc;
-  -webkit-box-shadow: 0px 0px 51px 20px rgba(255,223,221,0.5);
-  -moz-box-shadow: 0px 0px 51px 20px rgba(255,223,221,0.5);
-  box-shadow: 0px 0px 51px 20px rgba(255,223,221,0.5);
-}
 
-.sliderProducts h1{
-  margin-left: 50px;
-}
-.sliderProducts div{
-  margin-right: 50px;
-  display: flex;
-  float: right;
-}
-#textSlider{
-  font-size: 1.3em;
-  width: 350px;
-  display: flex;
-  text-align: left;
-}
-.ism-slider{
-  width: 400px;
-}
-.ism-caption a{
-  font-family: 'Della Respira', serif;
-  text-decoration: none;
-  color:white;
-}
+
+
 
 /*#e587e5 pour les test ne pas utilisé  */
 
