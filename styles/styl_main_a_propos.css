@@ -194,7 +194,7 @@ padding: 10px;
   display: flex;
   align-content: space-between;
 }
-
+ 
 #grande_div .moitié2 {
   width: 100%;
   display: flex;
@@ -203,4 +203,17 @@ padding: 10px;
 .little_div{
   width: 55%;
   margin-left: 30px;
+}
+.CEO{
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+}
+
+.CEO>p{
+  margin-left: 10px;
+}
+.img_ceo{
+  width: 150px;
+  height: 130px;
 }
