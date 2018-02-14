@@ -24,15 +24,15 @@ main{
 }
 #little_squares .carre{
   text-align: center;
-  width: 200px;
-  height: 150px;
+  width: 150px;
+  height: 112.5px;
   border: 1px solid #FEE7E6;
   margin-bottom: 10px;
 }
 #little_squares .prod_little_square{
-  width: 92px;
-  height: 92px;
-  padding: 30px;
+  width: 80px;
+  height: 80px;
+  padding: 15px;
 }
 
 .prod_global{
@@ -89,9 +89,6 @@ main{
   margin: 0;
   border-radius:4px;
   display: inline-block;
-  -webkit-appearance:none;
-  -moz-appearance:none;
-  appearance:none;
   cursor:pointer;
   -webkit-box-shadow: 14px 10px 33px -11px rgba(222,132,150,1);
   -moz-box-shadow: 14px 10px 33px -11px rgba(222,132,150,1);
@@ -118,18 +115,18 @@ main{
     margin: 0;
     border-radius:4px;
     display: inline-block;
-    -webkit-appearance:none;
-    -moz-appearance:none;
-    appearance:none;
+
     cursor:pointer;
 }
 .achat button{
+  font-size: 1.3em;
   margin: 13px 20px;
   padding: 5px;
   border-radius: 5px;
   background-color: #FEE5E4;
 }
 .achat div{
+  font-size: 1.3em;
   margin: 20px 20px;
 }
 .achat{
