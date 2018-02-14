@@ -1,0 +1,280 @@
+/** header **/
+
+body {
+  margin: 0px;
+  /*background-color: #fcfcf9; */
+  background-image: url('../images/background.jpg');
+  font-family: 'Della Respira', serif;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+}
+
+#logo_site{
+  margin: 0% 5% 0% 0%;
+  width: 30%;
+}
+
+nav {
+  width: 800px;
+  margin: 0 auto;
+  font-size: 1.1em;
+}
+
+nav>ul {
+  margin: 0px;
+  position: relative;
+  padding: 0px;
+}
+
+nav>ul>li::after {
+  content: "";
+  clear: both;
+  position: absolute;
+  background-color: black;
+  height: 100%;
+  top: 0;
+  width: 2px;
+  display: block;
+}
+nav>ul>li:first-child::after {
+  content: "";
+  width: 0 !important;
+  background-color: white !important;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav ul li{
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav>ul>li {
+  float: left;
+  position: relative;
+}
+
+nav>ul>li>a {
+  padding: 10px 20px;
+  color: black;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+.submenu {
+  display: none;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+}
+nav li:hover .submenu {
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  padding: 0px;
+  z-index: 1000;
+}
+
+.submenu li {
+  border-bottom: 1px solid #BBB;
+}
+
+.submenu li a {
+  background-color :#FCF9EF;
+  padding: 15px 15px;
+  font-size: 13px;
+  color: black;
+  width: 150px;
+}
+
+.menu:hover {
+  background-color: rgba(241, 211, 79, 0.15);  transition: ease-in 0.1s;
+}
+
+.submenu li:hover a {
+  color: #DE8496;
+
+}
+
+.menu .submenu li:hover {
+  background-color: rgba(210, 77, 50)
+}
+
+.adds{
+  margin-top:10px;
+  float:right;
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+
+.accountBag a{
+  font-size: 1em;
+  text-decoration: none;
+  color: black;
+}
+
+.panier{
+  display:flex;
+  justify-content: flex-start;
+  width:130px;
+  padding-right: 5px;
+}
+.panier img{
+  margin-left: 14px;
+  width:25px;
+  height: 26px;
+
+}
+.creditCard{
+  width:150px;
+  display:flex;
+}
+.creditCard img{
+  margin-left: 14px;
+  width:25px;
+  height: 26px;
+}
+/** main **/
+
+#h1{
+  display: flex;
+  width: 50%;
+  padding: 150px;
+  margin: 40px;
+}
+
+#h1 .about_us{
+  width: 80px;
+  height: 60px;
+}
+
+h1{
+  padding-left: 30px;
+}
+
+#grande_div{
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+#grande_div .little_div{
+  width: 90%;
+  display: flex;
+  padding: 50px;
+}
+
+#grande_div>.little_div>img{
+width: 100px;
+height: 54px;
+}
+
+p{
+  margin-left: 30px;
+}
+
+.CEO{
+  width: 70%;
+  display: flex;
+}
+
+.CEO>p{
+  margin-top: 100px;
+}
+
+.CEO img{
+  width: 550px;
+  height: 160px;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+/** footer **/
+
+.newsletter{
+  width: 600px;
+  border-radius: 5px;
+  background-color:#FCFCFC;
+  margin: 50px auto 0px auto;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.newsletter button{
+height: 70px;
+padding:3px;
+border:1px solid #F5C5C5;
+border-radius:5px;
+width:200px;
+box-shadow:1px 1px 2px #C0C0C0 inset;
+}
+.clearBoth{
+  clear: both;
+}
+
+footer{
+  width: 960px;
+  margin: 100px auto 0px auto;
+  text-align: center;
+}
+
+
+footer img{
+  width: 64px;
+  margin: 10px 10px 0px 10px;
+}
+.social_link ul{
+  padding-left: 0px;
+}
+
+.social_link li{
+  display: inline-block;
+  list-style-type: none;
+}
+.inner_link ul{
+  padding:0px;
+}
+.inner_link ul li a{
+  padding: 0px;
+  text-decoration: none;
+  color: black;
+
+}
+.inner_link ul li:first-child{
+  padding: 0px 0px 0px 10px;
+}
+.inner_link li{
+  display:inline-block;
+  margin: 0px 15px;
+  list-style-type: none;
+}
+.inner_link{
+  margin: auto 0;
+}
+
+#chat{
+  position:fixed;
+  bottom: 50px;
+  right: 50px;
+}
