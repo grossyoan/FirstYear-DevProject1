@@ -139,3 +139,12 @@ main{
 div.achat{
   display: flex;
 }
+
+#referral{
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #feece6;
+  -webkit-box-shadow: 14px 10px 33px -11px rgba(222,132,150,1);
+  -moz-box-shadow: 14px 10px 33px -11px rgba(222,132,150,1);
+  box-shadow: 14px 10px 33px -11px rgba(222,132,150,1);
+}
