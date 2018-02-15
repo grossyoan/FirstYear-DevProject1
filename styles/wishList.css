@@ -173,7 +173,11 @@ nav li:hover .submenu {
 h2{
   text-align: center;
   font-weight: 300;
-  font-style: "Quicksand", serif;
+  font-style: "Lato", serif;
+  padding-bottom: 50px;
+}
+.gigoteuse:first-child{
+  border-bottom: solid 1px #f2ccff;
 }
 .mainBlock{
   width: 85%;
@@ -197,6 +201,7 @@ p{
     display: inline;
     width: 40%;
     text-align: left;
+    float: right;
 }
 .qty {
     width: 40px;
