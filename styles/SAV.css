@@ -1,0 +1,108 @@
+body{
+  background-color: #fcfcf9;
+  font-family: 'Roboto', sans-serif;
+}
+
+.popin-background{
+  position:fixed;
+  top:0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+}
+
+.popin{
+  position:fixed;
+  z-index: 101;
+  width: 600px;
+  background-color: white;
+  top:50%;
+  left: 50%;
+  border-radius: 4px;
+  transform:translate(-50%,-50%);
+   padding:20px 80px;
+}
+
+.popin h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: arial, sans-serif;
+  color: rgb(36,36,36);
+  font-size: 18px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid grey;
+}
+
+.popin form{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap
+}
+
+.popin p{
+  font-family:arial,sans-serif;
+  font-size:15px;
+  padding-bottom: 20px;
+  color: grey;
+}
+
+
+.popin input, select{
+  display: flex;
+  align-items: center;
+  font-family:arial,sans-serif;
+  background-color: rgba(0,0,0,0.05);
+  color: rgba(0,0,0,0.5);
+  font-size:15px;
+  padding: 15px;
+  border-radius:4px;
+  width: 250px;
+  margin: 0 0 20px 0;
+  border:2px solid rgb(231,231,231);
+}
+
+label{
+  font-family:arial,sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  width: 280px;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+#budget{
+  width:280px;
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 4px;
+}
+
+textarea{
+  font-family:arial,sans-serif;
+  font-size: 15px;
+  background-color: rgba(0,0,0,0.05);
+  color: rgba(0,0,0,0.5);
+  padding: 30px 20px;
+  width: 558px;
+  height: 120px;
+}
+
+div#button{
+  margin: 20px 0;
+  width:600px;
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  width: 200px;
+  height:50px;
+  background-color: #1abc9c;
+  color:white;
+  font-size: 18px;
+  border:0;
+  border-radius: 50px;
+  text-transform: uppercase;
+}

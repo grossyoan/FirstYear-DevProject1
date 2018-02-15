@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Modèle de page</title>
+    <meta name="description" content="Ceci est la description de ma page"/>
+    <link rel="stylesheet" href="../styles/SAV.css">
+  </head>
+  <body>
+    <div class="popin-background">
+    </div>
+    <div class="popin">
+      <h2> Une question/ un problème </h2>
+      <p>
+        Contactez moi
+      </p>
+      <form method="get" action="page2.php">
+        <div>
+          <label for="name">Nom de famille*</label>
+          <input id="input" type="text" name="nom" id="name" placeholder="Albert"/>
+        </div>
+        <div>
+          <label for="email">E-mail*</label>
+          <input id="input" type="email" name="email" id="email" placeholder="albert.dupont@yahoo.fr"/>
+        </div>
+        <div>
+          <label for="subject">problème(s) rencontré(s)*</label>
+          <select id="budget" name="probleme">
+            <option value="probleme">problème dû au lavage.</option>
+            <option value="probleme">problème dû au repassage.</option>
+            <option value="probleme">je souhaite rendre un produit.</option>
+            <option value="probleme">autre-merci de l'indiquer dans votre message.</option>
+          </select>
+        </div>
+        <div>
+          <label for="section" placeholder="choisir un produit">Produit(s) concerné(s)*</label>
+          <select id="budget" >
+            <option value="gigoteuse">Gigoteuse</option>
+            <option value="bavoir">Bavoir</option>
+            <option value="tapis_a_langer">Tapis à langer</option>
+            <option value="peluche">Peluche</option>
+          </select>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea name="description" rows="3" cols="80" placeholder="décrivez nous votre problème."></textarea>
+        </div>
+        <div id="button">
+          <button type="submit">Envoyer</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
