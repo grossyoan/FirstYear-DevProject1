@@ -1,3 +1,48 @@
+@media screen and (max-width: 766px) {
+  div#little_squares{
+    visibility:hidden;
+    position: fixed;
+  }
+  #chat{
+    visibility:hidden;
+  }
+  .prod_global{
+    width: 200px;
+    height: 200px;
+  }
+    .prod_global img{
+      margin-top:20px;
+        width:200px;
+        height:200px;
+      }
+    .productSheet{
+      width:auto;
+    }
+    div.productSheet{
+      margin:10px;
+    }
+    div.ligne{
+      width:auto;
+    }
+    main{
+      padding-bottom: 50px;
+    }
+    .achat div{
+      font-size:1.1em;
+      margin: 20px 10px;
+    }
+    div.achat form button{
+      font-size: 1.1em;
+      margin-right:0px;
+    }
+    div#referral{
+      visibility:hidden;
+    }
+    div.grd_rect{
+      width:auto;
+    }
+}
+
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   main{
     width: 768px;

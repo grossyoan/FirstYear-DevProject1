@@ -1,6 +1,97 @@
 /*css ipad */
 
-@media screen and (min-width: 767px) and (max-width: 1023px) {
+
+@media screen and (max-width: 766px) {
+	nav{
+		visibility: hidden;
+		position:fixed;
+	}
+	#menuToggle{
+		visibility: visible;
+	}
+	img#logo_site{
+
+	}
+.container{
+	visibility:hidden;
+	position:fixed;
+}
+main h1{
+	width:100%;
+	visibility:hidden;
+	position:fixed;
+	margin:0 auto;
+}
+div.flashSale{
+	margin: 0 auto 20px auto;
+	width:80%;
+
+}
+.flashSale img{
+	width:100px;
+	height:100px;
+}
+.flashSale div{
+	margin-left:20px;
+}
+.flashSale button{
+	margin-top:0;
+}
+
+div.aboutUs{
+	padding-right:10px;
+	width:80%;
+	margin: 0 auto;
+	height:260px;
+}
+div.aboutUs div{
+	width:70%;
+}
+.aboutUs img{
+	width:100px;
+	height:100px;
+}
+.aboutUs p{
+	margin-top:20px;
+	width:200px;
+	margin-left:20px;
+}
+div.aboutUs div a{
+	padding:0;
+	margin-right:0;
+}
+main{
+	width: 100vw;
+	display:flex;
+	flex-direction: column;
+}
+.newsletter{
+	width:100vw;
+}
+.newsletterFlex{
+	margin:0;
+	width:100vw;
+}
+.newsletterFlex div{
+	margin-left:0;
+}
+div.newsletterFlex {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+div.newsletterFlex button{
+	margin-left:0;
+}
+div.newsletter h1{
+	width: 100vw;
+}
+footer{
+	width:100vw;
+}
+}
+
+@media screen and (max-width: 1023px) {
 	body {
 	  margin: 0px;
 	  /*background-color: #fcfcf9; */
@@ -13,9 +104,10 @@
 	  text-align: center;
 	}
 
-	#logo_site{
-	  margin: 0% 0% 0% 4%;
-	  width: 55%;
+	img#logo_site{
+	  width: 40%;
+		margin-left: 20px;
+		margin-bottom:20px;
 	}
 
 	nav {
@@ -173,7 +265,7 @@
 }
 
 /* style pour l'ipadPro*/
-@media screen and (min-width: 1023px) and (max-width: 1366px) {
+@media screen and (max-width: 1366px) {
 	body {
 	  margin: 0px;
 	  /*background-color: #fcfcf9; */
@@ -195,6 +287,7 @@
 	  width: 960px;
 	  margin: 0 auto;
 	  font-size: 1.4em;
+
 	}
 
 	nav>ul {
