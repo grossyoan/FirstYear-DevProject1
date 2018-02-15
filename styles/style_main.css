@@ -1,5 +1,9 @@
 body{
   font-family: 'Roboto', sans-serif;
+
+}
+p{
+  opacity: 0.6;
 }
 .productList{
   font-weight: normal;
