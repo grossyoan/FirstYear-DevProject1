@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="../styles/style_main_about.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <!--style responsive -->
-    <link rel="stylesheet" type="text/css" media="screen and (min-width: 767px) and (max-width: 1366px)" href="../styles/style_header_tab.css"/>
-    <link rel="stylesheet" type="text/css" media="screen and (min-width: 767px) and (max-width: 1366px)" href="../styles/style_main_about_tab.css"/>
-    <link rel="stylesheet" type="text/css" media="screen and (min-width: 767px) and (max-width: 1366px)" href="../styles/style_footer_tab.css"/>
+    <link rel="stylesheet" type="text/css" href="../styles/style_header_tab.css"/>
+    <link rel="stylesheet" type="text/css"  href="../styles/style_main_about_tab.css"/>
+    <link rel="stylesheet" type="text/css"  href="../styles/style_footer_tab.css"/>
     <!--link font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Della+Respira|Quicksand" rel="stylesheet">
@@ -21,7 +21,7 @@
   </head>
   <body>
     <header>
-      <img id="logo_site" src="../images/logoWhite.png" alt="Logo Douce de Po">
+      <a href="../index.html"><img id="logo_site" src="../images/logoWhite.png" alt="Logo Douce de Po"></a>
       <div class="adds">
         <div class="panier">
           <li class="accountBag"><a href="google.fr">Mon Panier</a></li>
@@ -79,6 +79,33 @@
           </li>
         </ul>
       </nav>
+      <div role="navigation">
+          <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+              <a class="hamburgerA"href="#">
+                <li>
+                  <a href="../index.html"><img class="home" src="../images/home.png" alt="Retour au menu principal"></a>
+                </li>
+              </a>
+              <a class="hamburgerA"href="#">
+                <li>Collections</li>
+              </a>
+              <a class="hamburgerA"href="#">
+                <li>Mon trousseau</li>
+              </a>
+              <a class="hamburgerA"href="#">
+                <li>À caliner</li>
+              </a>
+              <a class="hamburgerA"href="#">
+                <li>Accessoires</li>
+              </a>
+            </ul>
+          </div>
+        </div>
     </header>
     <div class="clearBoth">
     </div>
@@ -130,7 +157,7 @@
         </div>
       </div>
       <div class="CEO">
-        <img class="img_ceo" src="../images/CEO.jpg" alt="">
+        <img class="img_ceo" alt="Photo de la fondatrice"src="../images/CEOCircle.png" alt="">
           <p>Douce de Po, c’est d’abord l’envie d’une *maman rêveuse* de faire découvrir son monde féérique et rempli de douceur à toutes celles qui viennent de donner la vie.
             Après plusieurs années d’expériences en tant que styliste modéliste dans le monde de l’enfance, la créatrice
             de Douce de Po, amoureuse de jolis accessoires pour bébés, a tenu à partager son univers avec toutes les mamans qui comme elle, vouent une vraie passion pour les produits uniques, fabriqués avec amour et remplis
@@ -144,10 +171,10 @@
     <footer>
       <div class="social_link">
         <ul>
-          <li><a href="/*"> <img alt="facebook" src="../images/fb.png"/></a> </li>
-          <li><a href="/*"> <img alt="twitter" src="../images/twitter.png"/></a> </li>
-          <li><a href="/*"> <img alt="instagram" src="../images/instagram.png"/></a> </li>
-          <li><a href="/*"> <img alt="youtube" src="../images/youtube.png"/></a> </li>
+          <li><a href="https://www.facebook.com/doucedepo.officiel/"> <img alt="Lien vers le Facebook" src="../images/fb.png"/></a> </li>
+      		<li><a href="/*"> <img alt="Lien vers le Twitter" src="../images/twitter.png"/></a> </li>
+      		<li><a href="https://www.instagram.com/pollennidoucedepo/"> <img alt="Lien vers le Instagram" src="../images/instagram.png"/></a> </li>
+      		<li><a href="/*"> <img alt="Lien vers la chaine Youtube" src="../images/youtube.png"/></a> </li>
         </ul>
       </div>
       <div class="clearBoth">
@@ -155,7 +182,7 @@
       <div class="inner_link">
         <ul>
           <li><a href="*/" alt="CGV">CGV </a> </li>
-          <li><a href="*/" alt="Contact">Contact </a> </li>
+          <li><a href="SAV.html" alt="Contact">Contact </a> </li>
           <li><a href="*/" alt="Partenaires">Partenaires </a> </li>
         </ul>
       </div>
