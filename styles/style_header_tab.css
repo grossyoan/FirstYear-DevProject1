@@ -1,6 +1,6 @@
 /*css ipad */
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 767px) and (max-width: 1023px) {
 	body {
 	  margin: 0px;
 	  /*background-color: #fcfcf9; */
@@ -173,7 +173,7 @@
 }
 
 /* style pour l'ipadPro*/
-@media screen and (min-width: 1024px) and (max-width: 1366px) {
+@media screen and (min-width: 1023px) and (max-width: 1366px) {
 	body {
 	  margin: 0px;
 	  /*background-color: #fcfcf9; */
@@ -187,14 +187,14 @@
 	}
 
 	#logo_site{
-	  margin: 0% 0% 0% 0%;
+	  margin: 0 auto;
 	  width: 40%;
 	}
 
 	nav {
 	  width: 960px;
 	  margin: 0 auto;
-	  font-size: 1.1em;
+	  font-size: 1.4em;
 	}
 
 	nav>ul {
@@ -297,9 +297,13 @@
 	}
 
 
+.container{
+	width:90%;
+}
+
 	.adds{
 	  margin-top:40px;
-	  margin-right: 200px;
+	  margin-right: 0px;
 	  float:right;
 	  /*display: flex;*/
 	  justify-content: flex-start;
@@ -309,6 +313,10 @@
 	}
 
 
+
+li.accountBag{
+	width:92px;
+}
 	.accountBag a{
 	  font-size: 1em;
 	  text-decoration: none;
@@ -321,18 +329,18 @@
 	.panier{
 	  display:flex;
 	  justify-content: flex-start;
-	  width:130px;
+	  width:140px;
 	  padding-right: 5px;
 	}
 	.panier img{
-	  margin-left: 20px;
+	  margin-left: 15px;
 
 	  width:12px;
 	  height: 13px;
 
 	}
 	.creditCard{
-	  width:150px;
+	  width:140px;
 	  display:flex;
 	}
 	.creditCard img{

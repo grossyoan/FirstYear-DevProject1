@@ -1,0 +1,102 @@
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+body{
+  max-width: 768px;
+}
+
+main{
+  height: 750px;
+}
+.mi-slider{
+  height:350px;
+}
+.mi-slider nav{
+  top:200px;
+}
+.mi-slider ul li img{
+  max-width:80%;
+}
+.mi-slider ul li{
+  padding:0;
+}
+.main{
+  padding-bottom:0px;
+}
+.productList{
+  width: 768px;
+}
+h1.productList{
+  width:600px;
+}
+
+.flashSale{
+  height:270px;
+}
+.flashSale h1{
+    font-size:1.5em;
+}
+.flashSale img{
+  width:100px;
+  height:100px;
+  margin-top:50px;
+}
+
+.flashSale form button{
+  margin-top:15px;
+}
+.aboutUs{
+  height:270px;
+}
+.aboutUs h1{
+  font-size:1.5em;
+}
+.aboutUs p{
+  width:220px;
+  margin-bottom:10px;
+}
+.aboutUs img{
+  width:100px;
+  height:100px;
+  margin-top: 50px;
+
+}
+
+.aboutUs a{
+  margin:0;
+}
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1366px) {
+
+
+.flashSale img{
+  width:150px;
+  height:150px;
+}
+
+.flashSale form button{
+  margin:0;
+}
+.aboutUs p{
+  width:300px;
+}
+.aboutUs img{
+  width:150px;
+  height:150px;
+  margin-top: 25px;
+
+}
+
+.aboutUs a{
+  margin:0;
+}
+.mi-slider nav a {
+font-size: 0.7em;
+padding: 40px 20px 30px 24px;
+}
+
+div#mi-slider.mi-slider{
+  margin-left: 51px;
+}
+
+
+}
