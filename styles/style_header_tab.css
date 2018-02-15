@@ -5,6 +5,7 @@
 	  margin: 0px;
 	  /*background-color: #fcfcf9; */
 	  background-image: url('../images/background.jpg');
+		background-repeat: no-repeat;
 	  /*font-family: 'Della Respira', serif; */
 	}
 

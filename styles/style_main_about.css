@@ -1,0 +1,63 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+main {
+  width: 1200px;
+  height: 1015px;
+  -webkit-box-shadow: 0px 0px 20px 10px rgba(255, 223, 221, 0.3);
+  -moz-box-shadow: 0px 0px 20px 10px rgba(255, 223, 221, 0.3);
+  box-shadow: 0px 0px 20px 10px rgba(255, 223, 221, 0.3);
+  margin: 50px auto 0px auto;
+  background-color: rgba(252, 252, 252, 0.6);
+}
+
+.clearBoth{
+  clear: both;
+}
+
+.aproposTxt{
+  padding-top: 50px;
+}
+
+#aproposTxt{
+  padding: 50px 0px 20px 50px;
+  font-size:2em;
+}
+#grande_div{
+  width:80%;
+  margin: 120px auto 0px auto;
+
+}
+#grande_div .moitié1 {
+  margin-right: 20px;
+  width: 100%;
+  display: flex;
+  align-content: space-between;
+}
+
+#grande_div .moitié2 {
+  width: 100%;
+  display: flex;
+  align-content: space-around;
+}
+.little_div{
+  width: 55%;
+  margin-left: 30px;
+}
+.CEO{
+  margin-left:30px;
+  margin-top: 50px;
+  width: 100%;
+  height:130px;
+  display: flex;
+}
+
+.CEO>p{
+  display:flex;
+  align-items:center;
+  margin-left:20px;
+}
+.img_ceo{
+  width: 105px;
+  height: 130px;
+}
