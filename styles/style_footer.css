@@ -1,11 +1,11 @@
-.newsletter form{
+/*.newsletter form{
   display:none;
 
-}
+}*/
 
-.newsletter:hover .appear{
+/*.newsletter:hover .appear{
   display: block;
-}
+}*/
 
 .newsletter h1{
   font-size: 1em;
@@ -13,8 +13,8 @@
 
 .newsletterFlex{
   display:flex;
-  justify-content: space-around;
-  background-color:#fcfcfc;
+  /*justify-content: space-around;*/
+  background-color: rgba(252,252,252,0.5);
   margin: 0 auto;
 }
 
@@ -27,12 +27,17 @@
 }
 .newsletterFlex button{
   font-size: 1.1em;
-  height: 70px;
+  height: 50px;
   padding:3px;
   border:1px solid #F5C5C5;
   border-radius:5px;
-  width:200px;
+  width:160px;
   box-shadow:1px 1px 2px #C0C0C0 inset;
+  margin-left: 20px;
+  margin-top: 6px;
+}
+.newsletterFlex div{
+  margin-left: 56px;
 }
 
 input[type="text"] {

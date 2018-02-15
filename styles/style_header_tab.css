@@ -1,4 +1,4 @@
-/* */
+/*css ipad */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 	body {
@@ -14,14 +14,14 @@
 	}
 
 	#logo_site{
-	  margin: 0% 0% 0% 10%;
-	  width: 40%;
+	  margin: 0% 0% 0% 4%;
+	  width: 55%;
 	}
 
 	nav {
 	  width: 768px;
-	  margin: 0 auto;
-	  font-size: 0.7em;
+	  margin-left: 15px;
+	  font-size: 1.1em;
 	}
 
 	nav>ul {
@@ -126,12 +126,12 @@
 
 	.adds{
 	  margin-top:40px;
-	  margin-right: 160px;
+	  margin-right: 10px;
 	  float:right;
 	  /*display: flex;*/
 	  justify-content: flex-start;
 	  list-style-type: none;
-	  font-size: 0.7em;
+	  font-size: 1em;
 
 	}
 
@@ -140,7 +140,7 @@
 	  font-size: 1em;
 	  text-decoration: none;
 	  color: black;
-	  
+
 	}
 
 
@@ -163,7 +163,8 @@
 	  display:flex;
 	}
 	.creditCard img{
-	  margin-left: 16px;
+	  margin-left: 10px;
+		margin-top: 2px;
 	  width:12px;
 	  height: 13px;
 	}
@@ -186,14 +187,14 @@
 	}
 
 	#logo_site{
-	  margin: 0% 0% 0% -10%;
-	  width: 30%;
+	  margin: 0% 0% 0% 0%;
+	  width: 40%;
 	}
 
 	nav {
 	  width: 960px;
 	  margin: 0 auto;
-	  font-size: 0.7em;
+	  font-size: 1.1em;
 	}
 
 	nav>ul {
@@ -298,12 +299,12 @@
 
 	.adds{
 	  margin-top:40px;
-	  margin-right: 160px;
+	  margin-right: 200px;
 	  float:right;
 	  /*display: flex;*/
 	  justify-content: flex-start;
 	  list-style-type: none;
-	  font-size: 0.7em;
+	  font-size: 1em;
 
 	}
 
@@ -312,7 +313,7 @@
 	  font-size: 1em;
 	  text-decoration: none;
 	  color: black;
-	  
+
 	}
 
 
