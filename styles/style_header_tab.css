@@ -314,11 +314,11 @@
 
 
 
-li.accountBag{
-	width:92px;
-}
+	li.accountBag{
+		width:92px;
+	}
 	.accountBag a{
-	  font-size: 1em;
+	  font-size: 0.9em;
 	  text-decoration: none;
 	  color: black;
 
@@ -334,9 +334,8 @@ li.accountBag{
 	}
 	.panier img{
 	  margin-left: 15px;
-
 	  width:12px;
-	  height: 13px;
+	  height:13px;
 
 	}
 	.creditCard{

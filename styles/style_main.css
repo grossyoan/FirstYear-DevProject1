@@ -40,6 +40,7 @@ main{
 
 .flashSale div p{
   font-size: 1em;
+  margin-bottom: 27px;
 }
 .flashSale h1{
   text-align: center;
@@ -68,6 +69,7 @@ main{
 .aboutUs p{
   width: 400px;
   margin:0;
+  margin-bottom: 10px;
 
 }
 .aboutUs a{
@@ -82,6 +84,9 @@ main{
   font-family: Arial;
   margin-right: 129px;
   margin-top: 10px;
+  width: 160px;
+  height: 25px;
+  text-align: center;
 }
 
 .aboutUs img{
