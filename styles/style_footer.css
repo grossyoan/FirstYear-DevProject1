@@ -27,14 +27,13 @@
 }
 .newsletterFlex button{
   font-size: 1.1em;
-  height: 50px;
+  height: 60px;
   padding:3px;
   border:1px solid #F5C5C5;
   border-radius:5px;
   width:160px;
-  box-shadow:1px 1px 2px #C0C0C0 inset;
   margin-left: 20px;
-  margin-top: 6px;
+  margin-top: 8px;
 }
 .newsletterFlex div{
   margin-left: 56px;
@@ -46,7 +45,8 @@ input[type="text"] {
     border: 1px solid #F5C5C5;
     border-radius: 5px;
     width: 200px;
-    box-shadow: 1px 1px 2px #C0C0C0 inset;
+    height: 20px;
+
 }
 
 .clearBoth{
