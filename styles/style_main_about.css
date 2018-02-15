@@ -3,7 +3,7 @@ body{
 }
 main {
   width: 1200px;
-  height: 1015px;
+  height: 950px;
   -webkit-box-shadow: 0px 0px 20px 10px rgba(255, 223, 221, 0.3);
   -moz-box-shadow: 0px 0px 20px 10px rgba(255, 223, 221, 0.3);
   box-shadow: 0px 0px 20px 10px rgba(255, 223, 221, 0.3);
@@ -25,9 +25,10 @@ main {
 }
 #grande_div{
   width:80%;
-  margin: 120px auto 0px auto;
+  margin: 20px auto 0px auto;
 
 }
+
 #grande_div .moitié1 {
   margin-right: 20px;
   width: 100%;
@@ -44,6 +45,7 @@ main {
   width: 55%;
   margin-left: 30px;
 }
+
 .CEO{
   margin-left:30px;
   margin-top: 50px;
