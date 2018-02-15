@@ -2,9 +2,6 @@
   main{
     width: 768px;
   }
-  .productSheet{
-    padding: 0px;
-  }
   .prod_global{
     margin-left: 0px;
     margin-right: 10px;
@@ -12,4 +9,56 @@
   div.carre{
     margin: 0px;
   }
+}
+
+
+
+@media screen and (min-width: 1023px) and (max-width: 1366px) {
+
+body{
+  background-repeat: no-repeat;
+}
+main{
+  width: 950px;
+  height: 600px;
+}
+
+div.prod_global img{
+  height:180px;
+  width:182px;
+}
+
+.productSheet{
+  width:400px;
+  padding:15px;
+}
+
+.productSheet h1{
+  font-size: 1.8em;
+  width: 450px;
+}
+div.productSheet p{
+  padding-left: 50px;
+}
+.grd_rect{
+  width:400px;
+  height: 570px;
+}
+.ligne{
+  width: 370px;
+  margin-left: 50px;
+}
+.info_option_product {
+    margin: 10px auto 0px 60px;
+  }
+
+.taille {
+  margin: 10px auto 0px 60px;
+  }
+.quantite{
+  margin: 10px auto 0px 60px;
+}
+#referral{
+  margin: 20px 30px 0px 0px;
+}
 }
